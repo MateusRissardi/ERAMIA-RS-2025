@@ -19,6 +19,6 @@ EXPORT STD_Persons := MODULE
 		UNSIGNED3   ZipCode 	  := (UNSIGNED3)$.UID_Persons.ZipCode;
 	END;
 	EXPORT File := TABLE($.UID_Persons,Layout)
-                    :PERSIST('~CLASS::XYZ::PERSIST::STD_Persons');
+                    :PERSIST('~CLASS::MatRis::PERSIST::STD_Persons');
 END;
 //

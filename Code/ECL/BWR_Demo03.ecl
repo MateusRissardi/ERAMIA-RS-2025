@@ -49,6 +49,6 @@ dedup03a := DEDUP(sort03,FirstName,LastName);
 // *****  Remocao de duplicidades com "Palavras Chaves": LEFT & RIGHT (outro exemplo: LEFT.Lastname = RIGHT.Firstname)
 dedup03b := DEDUP(sort03, LEFT.FirstName = RIGHT.FirstName AND
                           LEFT.LastName = RIGHT.LastName)
-              :PERSIST('~CLASS::XYZ::PERSIST::DedupPersons');
+              :PERSIST('~CLASS::MatRis::PERSIST::DedupPersons');
 // dedup03b;                                                   //	SUBMIT 05c
 //

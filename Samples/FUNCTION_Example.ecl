@@ -16,4 +16,4 @@ StrLen := LENGTH(TRIM(dataIn));
     RETURN COUNT(n(flag=1));
 END;
     
-OUTPUT(MyFunc('abc~xyz~def~fred', '~'));
+OUTPUT(MyFunc('abc~MatRis~def~fred', '~'));

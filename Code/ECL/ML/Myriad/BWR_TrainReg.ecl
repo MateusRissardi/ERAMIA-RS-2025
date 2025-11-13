@@ -12,7 +12,7 @@ MyriadLearnerR := LT.RegressionForest(10,,10,[1]);
 //
 // Obtendo o modelo composto (composto por 45 modelos = números de estados existentes no dataset)
 MyriadModelR := MyriadLearnerR.GetModel($.modSegConvData.MyriadIndTrainDataNF,$.modSegConvData.MyriadDepTrainDataNF);
-OUTPUT(MyriadModelR,,'~CLASS::XYZ::ML::MyriadModelR', NAMED('Myriad_Modelo_Treinado'),OVERWRITE);
+OUTPUT(MyriadModelR,,'~CLASS::MatRis::ML::MyriadModelR', NAMED('Myriad_Modelo_Treinado'),OVERWRITE);
 OUTPUT(COUNT(DEDUP(SORT((MyriadModelR), wi), wi)), NAMED('Numero_de_Modelos'));
 //
 //

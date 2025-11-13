@@ -56,7 +56,7 @@ EXPORT modPrepData := MODULE
                                                                         LEFT.state = 'MN' => 57, LEFT.state = 'OK' => 58,
                                                                         LEFT.state = 'AA' => 59, 0),
                                                       SELF       := LEFT))
-                            :PERSIST('~CLASS::XYZ::ML::MyriadPrepData');
+                            :PERSIST('~CLASS::MatRis::ML::MyriadPrepData');
 //
 END;
 //

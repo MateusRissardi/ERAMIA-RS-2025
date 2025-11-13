@@ -9,5 +9,5 @@ EXPORT CleanProperty := Property($.isCleanFilter);
 // COUNT(CleanProperty);          // 575.814 registros
 //
 //
-// OUTPUT(CleanProperty,,'~CLASS::XYZ::OUT::CleanProperty',CSV(SEPARATOR(','), TERMINATOR('\n')),OVERWRITE);
+// OUTPUT(CleanProperty,,'~CLASS::MatRis::OUT::CleanProperty',CSV(SEPARATOR(','), TERMINATOR('\n')),OVERWRITE);
 //

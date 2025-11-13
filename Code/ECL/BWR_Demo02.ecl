@@ -35,7 +35,7 @@ ds;			                                                      //	SUBMIT 01
 // *****  Eliminacao de campos desnecessarios - "Vertical Slice" form
 mytable := TABLE(ds,{Firstname,Lastname,Account,Balance,Income});
 mytable;                                                      //	SUBMIT 02a
-// OUTPUT(mytable,,'~CLASS::XYZ::DEMO::mytable',OVERWRITE);   //	SUBMIT 02b
+// OUTPUT(mytable,,'~CLASS::MatRis::DEMO::mytable',OVERWRITE);   //	SUBMIT 02b
 
 // *****  Ordenacao de valores: Lastname (-Lastname = decrescente)
 sort01 := SORT(mytable,Lastname);

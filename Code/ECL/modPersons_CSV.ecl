@@ -21,6 +21,6 @@ EXPORT modPersons_CSV := MODULE
     STRING2   State;
     STRING5   ZipCode;
   END;
-  EXPORT File_CSV := DATASET('~CLASS::XYZ::OUT::Persons_CSV',Layout_CSV,CSV);
+  EXPORT File_CSV := DATASET('~CLASS::MatRis::OUT::Persons_CSV',Layout_CSV,CSV);
 END;
 //

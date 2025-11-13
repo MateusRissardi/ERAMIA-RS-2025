@@ -25,7 +25,7 @@ EXPORT modPrepData := MODULE
                                                   SELF.rnd := RANDOM(),
                                                   SELF.zip := (UNSIGNED3)LEFT.zip,
                                                   SELF := LEFT))
-                        :PERSIST('~CLASS::XYZ::ML::PrepData');
+                        :PERSIST('~CLASS::MatRis::ML::PrepData');
 //
 END;
 //

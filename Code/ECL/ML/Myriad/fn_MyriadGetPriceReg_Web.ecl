@@ -79,17 +79,17 @@ WUID := WORKUNIT; // obter o Id da WorkUnit
 //
 //
 // Predição e retorno do valor do imóvel consultado - State 01
-	MyriadModel01       := DATASET('~CLASS::XYZ::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
+	MyriadModel01       := DATASET('~CLASS::MatRis::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
 	MyriadLearner01     := LT.RegressionForest(10,,10,[1]);
 	MyriadPredictDeps01 := MyriadLearner01.Predict(MyriadModel01, MyriadNewIndDataReg01);
 //
 // Predição e retorno do valor do imóvel consultado - State 02
-	MyriadModel02       := DATASET('~CLASS::XYZ::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
+	MyriadModel02       := DATASET('~CLASS::MatRis::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
 	MyriadLearner02     := LT.RegressionForest(10,,10,[1]);
 	MyriadPredictDeps02 := MyriadLearner02.Predict(MyriadModel02, MyriadNewIndDataReg02);
 //
 // Predição e retorno do valor do imóvel consultado - State 03
-	MyriadModel03       := DATASET('~CLASS::XYZ::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
+	MyriadModel03       := DATASET('~CLASS::MatRis::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
 	MyriadLearner03     := LT.RegressionForest(10,,10,[1]);
 	MyriadPredictDeps03 := MyriadLearner03.Predict(MyriadModel03, MyriadNewIndDataReg03);
 //

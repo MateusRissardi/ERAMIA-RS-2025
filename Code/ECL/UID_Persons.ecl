@@ -15,5 +15,5 @@ Layout_Persons_RecID IDrecs($.modPersons.Layout L, INTEGER cnt) := TRANSFORM
 END;
 
 EXPORT UID_Persons := PROJECT(Persons,IDrecs(LEFT,COUNTER))
-                         : PERSIST('~CLASS::XYZ::PERSIST::UID_Persons');
+                         : PERSIST('~CLASS::MatRis::PERSIST::UID_Persons');
 //

@@ -17,6 +17,6 @@ EXPORT modPersons := MODULE
     STRING2   State;
     STRING5   ZipCode;
   END;
-  EXPORT File := DATASET('~CLASS::XYZ::DEMO::Persons',Layout,FLAT);
+  EXPORT File := DATASET('~CLASS::MatRis::DEMO::Persons',Layout,FLAT);
 END;
 //

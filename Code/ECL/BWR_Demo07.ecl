@@ -10,7 +10,7 @@ Persons := $.modPersons.File;
 // *****  Eliminacao de campos desnecessarios
 ptable := TABLE(Persons,{ID,Firstname,LastName,Gender,DependentCount,BirthDate,StreetAddress,City,State,ZipCode});
 ptable;                                                       //	SUBMIT 16a
-// OUTPUT(ptable,,'~CLASS::XYZ::DEMO::PersonsTBL',OVERWRITE);    //	SUBMIT 16b
+// OUTPUT(ptable,,'~CLASS::MatRis::DEMO::PersonsTBL',OVERWRITE);    //	SUBMIT 16b
 //
 //
 //

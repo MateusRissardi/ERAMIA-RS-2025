@@ -11,6 +11,6 @@ EXPORT modInline01 := MODULE
     INTEGER  	  Balance;
     DECIMAL7_2 	Income;
   END;
-  EXPORT File := DATASET('~CLASS::XYZ::DEMO::DatasetInline01',Layout,CSV(HEADING(1)));
+  EXPORT File := DATASET('~CLASS::MatRis::DEMO::DatasetInline01',Layout,CSV(HEADING(1)));
 END;
 //

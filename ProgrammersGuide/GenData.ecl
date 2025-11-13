@@ -47,7 +47,7 @@ END;
 //define data for record generation:
 
 		//100 possible middle initials, 52 letters and 48 blanks
-SetMiddleInitials := 'ABCDEFGHIJKLMNOPQRSTUVWXYZ                          ABCDEFGHIJKLMNOPQRSTUVWXYZ                      ';
+SetMiddleInitials := 'ABCDEFGHIJKLMNOPQRSTUVWMatRis                          ABCDEFGHIJKLMNOPQRSTUVWMatRis                      ';
 	
 		//1000 First and last names
 SET OF STRING14	SetFnames := [

@@ -12,7 +12,7 @@ myLearnerR := LT.RegressionForest(10,,10,[1]);
 //
 // Obtendo o modelo treinado
 myModelR := myLearnerR.GetModel($.modSegConvData.myIndTrainDataNF,$.modSegConvData.myDepTrainDataNF);
-OUTPUT(myModelR,,'~CLASS::XYZ::ML::myModelR', NAMED('Modelo_Treinado'),OVERWRITE);
+OUTPUT(myModelR,,'~CLASS::MatRis::ML::myModelR', NAMED('Modelo_Treinado'),OVERWRITE);
 //
 //
 // Testando o modelo

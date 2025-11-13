@@ -9,11 +9,11 @@ PrepDataSort := SORT(PrepData, rnd);
 //
 // Segregação dos dados - Considerando os primeiros 5.000 registros como amostra de Treinamento
 myTrainData := PROJECT(PrepDataSort[1..5000], $.modPrepData.ML_Prop)
-                          :PERSIST('~CLASS::XYZ::ML::Train');             // layout sem o campo rnd
+                          :PERSIST('~CLASS::MatRis::ML::Train');             // layout sem o campo rnd
 //
 // Segregação dos dados - Considerando os 2.000 registros seguintes como amostra de Teste
 myTestData  := PROJECT(PrepDataSort[5001..7000], $.modPrepData.ML_Prop)
-                          :PERSIST('~CLASS::XYZ::ML::Test');              // layout sem o campo rnd
+                          :PERSIST('~CLASS::MatRis::ML::Test');              // layout sem o campo rnd
 //
 //
 // Conversão Matricial dos campos numéricos

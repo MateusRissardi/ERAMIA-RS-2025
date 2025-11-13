@@ -25,7 +25,7 @@ EXPORT fn_GetPriceReg(Zip,
 	myNewIndDataReg := PROJECT(myInDS, PrepDataReg(LEFT,COUNTER));
 //
 // Predição e retorno do valor do imóvel consultado
-	myModelR := DATASET('~CLASS::XYZ::ML::myModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
+	myModelR := DATASET('~CLASS::MatRis::ML::myModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
 	myLearnerR := LT.RegressionForest(10,,10,[1]);
 	myPredictDeps := MyLearnerR.Predict(myModelR, myNewIndDataReg);
 //

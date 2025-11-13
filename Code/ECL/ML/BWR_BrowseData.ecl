@@ -5,5 +5,5 @@ OUTPUT($.modProperty.File);
 COUNT($.modProperty.File);          // 1.662.959 registros
 //
 //
-// OUTPUT($.modProperty.File,,'~CLASS::XYZ::OUT::Property',CSV(SEPARATOR(','), TERMINATOR('\n')),OVERWRITE);
+// OUTPUT($.modProperty.File,,'~CLASS::MatRis::OUT::Property',CSV(SEPARATOR(','), TERMINATOR('\n')),OVERWRITE);
 //

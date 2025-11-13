@@ -23,6 +23,6 @@ EXPORT modProperty := MODULE
    UNSIGNED2 half_baths;
    UNSIGNED2 year_built;
   END;
-  EXPORT File := DATASET('~CLASS::XYZ::ML::Property',Layout,CSV);
+  EXPORT File := DATASET('~CLASS::MatRis::ML::Property',Layout,CSV);
 END;
 //

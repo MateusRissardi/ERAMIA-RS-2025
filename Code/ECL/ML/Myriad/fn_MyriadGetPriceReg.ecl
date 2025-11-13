@@ -39,7 +39,7 @@ WUID := WORKUNIT; // obter o Id da WorkUnit
 	MyriadNewIndDataReg := PROJECT(MyriadInDS, PrepDataReg(LEFT, COUNTER));
 //
 // Predição e retorno do valor do imóvel consultado
-	MyriadModelR      := DATASET('~CLASS::XYZ::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
+	MyriadModelR      := DATASET('~CLASS::MatRis::ML::MyriadModelR',ML_Core.Types.Layout_Model2,FLAT,PRELOAD);
 	MyriadLearnerR    := LT.RegressionForest(10,,10,[1]);
 	MyriadPredictDeps := MyriadLearnerR.Predict(MyriadModelR, MyriadNewIndDataReg);
 //

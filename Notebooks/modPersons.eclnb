@@ -19,7 +19,7 @@
         {
             "id": "673ee35b-302e-4e32-a0ee-64789df49515",
             "name": "",
-            "value": "EXPORT modPersons := MODULE\n  EXPORT Layout := RECORD\n    INTEGER4  ID;\n    STRING15  FirstName;\n    STRING25  LastName;\n    STRING15  MiddleName;\n    STRING2   NameSuffix;\n    STRING8   FileDate;\n    UNSIGNED2 BureauCode;\n    STRING1   MaritalStatus;\n    STRING1   Gender;\n    UNSIGNED1 DependentCount;\n    STRING8   BirthDate;\n    STRING42  StreetAddress;\n    STRING20  City;\n    STRING2   State;\n    STRING5   ZipCode;\n  END;\n  EXPORT File := DATASET('~CLASS::XYZ::DEMO::Persons',Layout,FLAT);\nEND;",
+            "value": "EXPORT modPersons := MODULE\n  EXPORT Layout := RECORD\n    INTEGER4  ID;\n    STRING15  FirstName;\n    STRING25  LastName;\n    STRING15  MiddleName;\n    STRING2   NameSuffix;\n    STRING8   FileDate;\n    UNSIGNED2 BureauCode;\n    STRING1   MaritalStatus;\n    STRING1   Gender;\n    UNSIGNED1 DependentCount;\n    STRING8   BirthDate;\n    STRING42  StreetAddress;\n    STRING20  City;\n    STRING2   State;\n    STRING5   ZipCode;\n  END;\n  EXPORT File := DATASET('~CLASS::MatRis::DEMO::Persons',Layout,FLAT);\nEND;",
             "mode": "ecl",
             "outputs": []
         },
