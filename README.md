@@ -13,7 +13,7 @@ Environment for the HPCC-Systems big data platform.  This demo uses cloud develo
 
 Click the badge below to launch a Codespace using the new dev container configuration.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/alysson-oliveira/ERAMIA-RS-2025)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MateusRissardi/ERAMIA-RS-2025)
 
 The Codespaces environment will:
 
